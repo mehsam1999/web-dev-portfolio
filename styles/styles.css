@@ -1,0 +1,125 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* shared display , S er orange color*/
+
+.text-primary{
+    color: #FD6E0A;
+}
+/* text color dark-02 */
+
+.dark-2{
+    color: #474747;
+    
+}
+.dark-3{
+    color: #757575;
+    
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px;
+}
+/* header er background pics */
+
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav gula ke paspasi ana hoise & nav holo h3 ar ul er parent*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+/* text er size ar weight */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* ul holo li ar a er parent */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+/* div banner holo div banner content ar img er parent */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-description{
+    font-weight: normal;
+    font-size: 18px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 85px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+
+.btn-space {
+    margin-right: 30px;
+}
+
+.btn-contact-me{
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
