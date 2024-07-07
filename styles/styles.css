@@ -4,13 +4,14 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    margin: 0; 
 }
-
 
 
 /* shared display , S er orange color*/
 .secondary-bg {
     background-color: #FFF8F3;
+    
 }
 .text-primary{
     color: #FD6E0A;
@@ -40,16 +41,22 @@
 .section-title{
     font-weight: bold;
     font-size: 35px;
+    
 }
 .section-description{
     font-size: 18px;
+}
+
+.text-center{
+    text-align: center;
 }
 /* header er background pics */
 
 .header{
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left, bottom right;
+    
 }
 /* nav gula ke paspasi ana hoise & nav holo h3 ar ul er parent*/
 
@@ -130,11 +137,15 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 .about{
     padding: 130px 150px;
     text-align: center;
     border-radius: 10px;
-    margin-top: 130px;
 }
 
 .about-items{
@@ -145,3 +156,17 @@ main{
     font-weight: bold;
 }
 
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.Skills > p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
