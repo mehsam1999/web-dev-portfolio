@@ -8,7 +8,10 @@
 }
 
 
-/* shared display , S er orange color*/
+/* shared display */
+i{
+    margin-right: 10px;
+}
 .secondary-bg {
     background-color: #FFF8F3;
     
